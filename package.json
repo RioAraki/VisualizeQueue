@@ -1,0 +1,19 @@
+{
+  "name": "visual_queue",
+  "version": "1.0.0",
+  "description": "A visualized ticket queue for JIRA system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RioAraki/VisualizeQueue.git"
+  },
+  "author": "Yue (Rio)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RioAraki/VisualizeQueue/issues"
+  },
+  "homepage": "https://github.com/RioAraki/VisualizeQueue#readme"
+}
