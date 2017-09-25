@@ -8,7 +8,7 @@ function onRequest(request, response) {
       response.writeHead(404);
       response.write('File not found!');
     } else {
-      reponse.write(data);
+      response.write(data);
     }
     response.end();
   } );
