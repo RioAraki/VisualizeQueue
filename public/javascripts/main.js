@@ -12,7 +12,7 @@ var items = new vis.DataSet([
 ]);
 
 // Configuration for the Timeline
-var options = {};
+var options = {editable: true};
 
 // Create a Timeline
 var timeline = new vis.Timeline(container, items, options);
