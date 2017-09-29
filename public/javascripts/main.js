@@ -1,18 +1,17 @@
 // DOM element where the Timeline will be attached
-var container = document.getElementById('visualization');
+var container_main = document.getElementById('visualization_main');
+var container_17_40 = document.getElementById('visualization_17_40');
+var container_kmd = document.getElementById('visualization_kmd');
 
 // Create a DataSet (allows two way data-binding)
-var items = new vis.DataSet([
-  {id: 1, content: 'item 1', start: '2013-04-20'},
-  {id: 2, content: 'item 2', start: '2013-04-14'},
-  {id: 3, content: 'item 3', start: '2013-04-18'},
-  {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},
-  {id: 5, content: 'item 5', start: '2013-04-25'},
-  {id: 6, content: 'item 6', start: '2013-04-27'}
+var items_main = new vis.DataSet([
+  {id: 1, content: '133910 [QR][Maya2018] TDR<br/>WX7100 RS2', start: '2017-08-29'}
 ]);
 
 // Configuration for the Timeline
-var options = {editable: false};
+var options = {};
 
 // Create a Timeline
-var timeline = new vis.Timeline(container, items, options);
+var timeline_main = new vis.Timeline(container_main, items_main, options);
+var timeline_17_40 = new vis.Timeline(container_17_40, items_main, options);
+var timeline_kmd = new vis.Timeline(container_kmd, items_main, options);
