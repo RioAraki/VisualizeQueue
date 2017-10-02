@@ -5,7 +5,9 @@ var container_kmd = document.getElementById('visualization_kmd');
 
 // Create a DataSet (allows two way data-binding)
 var items_main = new vis.DataSet([
-  {id: 133910, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'}
+  {id: 133910, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'},
+  {id: 134104, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134104" target="_blank">134104 [CF][Hawaii] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'},
+  {id: 134227, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134227" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'},
 ]);
 
 var items_17_40 = new vis.DataSet([
@@ -13,7 +15,7 @@ var items_17_40 = new vis.DataSet([
 ]);
 
 var items_kmd = new vis.DataSet([
-  {id: 1, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'}
+  {id: 133910, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'}
 ]);
 
 // Configuration for the Timeline
