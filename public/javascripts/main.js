@@ -5,7 +5,7 @@ var container_kmd = document.getElementById('visualization_kmd');
 
 // Create a DataSet (allows two way data-binding)
 var items_main = new vis.DataSet([
-  {id: 1, content: '133910 [QR][Maya2018] TDR<br/>WX7100 RS2', start: '2017-08-29'}
+  {id: 1, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'}
 ]);
 
 // Configuration for the Timeline
