@@ -53,5 +53,10 @@ document.getElementById('fit').onclick = function() {
 
 document.getElementById('find').onclick = function() {
   //  TODO: error check if the value is not found
+  try {
     choosen.focus(document.getElementById('find_val').value);
+  } catch (err) {
+    document.getElementById('find_err').innerHTML = 'Cannot find mentioned ticket number'
+  }
+
   };
