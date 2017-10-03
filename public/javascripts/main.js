@@ -35,29 +35,23 @@ $( "body" ).click(function( event ) {
   console.log("EVENT: " + event.target.innerHTML);
   if (event.target.innerHTML == 'Mainline'){
     choosen = timeline_main
-    console.log('mainline')
+    document.getElementById('chosen').innerHTML = 'Mainline'
   } else if (event.target.innerHTML == '17.40'){
     choosen = timeline_17_40
-    console.log('17.40')
+    document.getElementById('chosen').innerHTML = '17.40'
   } else if (event.target.innerHTML == 'kmd') {
     choosen = timeline_kmd
-    console.log('kmd')
+    document.getElementById('chosen').innerHTML = 'kmd'
   }
-
 });
 
 
 
-
-
 document.getElementById('fit').onclick = function() {
-    timeline_main.fit();
+    choosen.fit();
   };
-
-
 
 document.getElementById('find').onclick = function() {
   //  TODO: error check if the value is not found
-
-    timeline_17_40.focus(document.getElementById('find_val').value);
+    choosen.focus(document.getElementById('find_val').value);
   };
