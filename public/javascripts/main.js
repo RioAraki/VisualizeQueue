@@ -21,7 +21,7 @@ var items_kmd = new vis.DataSet([
 ]);
 
 var items_uvd = new vis.DataSet([
-  {id: 133910, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 Result<br> CL# 1462315', start: '2017-09-22'}
+  {id: 134289, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">134289 Result<br> CL# 1462315', start: '2017-09-22'}
 ]);
 
 // Configuration for the Timeline
@@ -50,7 +50,7 @@ $( "body" ).click(function( event ) {
     choosen = timeline_kmd
     document.getElementById('chosen').innerHTML = 'kmd'
   } else if (event.target.innerHTML == 'uvd') {
-    choosen = timeline_kmd
+    choosen = timeline_uvd
     document.getElementById('chosen').innerHTML = 'uvd'
   }
 });
