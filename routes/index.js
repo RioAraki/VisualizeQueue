@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Visualized Queue' });
 });
 
+router.get('/add', function(req, res, next) {
+  res.render('add', { title: 'Add items' });
+});
+
 module.exports = router;
