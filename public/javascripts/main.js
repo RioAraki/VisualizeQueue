@@ -10,6 +10,7 @@ var items_main = new vis.DataSet([
   {id: 134104, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134104" target="_blank">134104 [CF][Hawaii] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'},
   {id: 134227, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134227" target="_blank">134227 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-09-26'},
   {id: 134289, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134289" target="_blank">134289 TDR is observed when launching DX9/11 applications in full screen after system boots up</b><br/>ASIC: 1x Vega Gaming XT, OS: Win 10 64bit RS3 BR# 16291</a>', start: '2017-09-26'},
+  {id: 134672, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134672" target="_blank">134672 [REG][KMD][Lexa]3DMark Fire Strike Graphic Test 1 Fails</b><br/>ASIC: Lexa SGPU [RX 550], OS: Windows 10 RS2 64 bit 15063</a>', start: '2017-08-29'},
 ]);
 
 var items_17_40 = new vis.DataSet([
@@ -17,7 +18,8 @@ var items_17_40 = new vis.DataSet([
 ]);
 
 var items_kmd = new vis.DataSet([
-  {id: 133910, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'}
+  {id: 133910, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-133910" target="_blank">133910 [QR][Maya2018] TDR</b><br/>ASIC: WX7100, OS:RS2</a>', start: '2017-08-29'},
+  {id: 134672, content: '<b><a href="http://ontrack-internal.amd.com/browse/SWDEV-134672" target="_blank">134672 [REG][KMD][Lexa]3DMark Fire Strike Graphic Test 1 Fails</b>Result: CL# 1452376, 2017-<br/><br/>ASIC: Lexa SGPU [RX 550], OS: Windows 10 RS2 64 bit 15063</a>', start: '2017-08-29'},
 ]);
 
 var items_uvd = new vis.DataSet([
